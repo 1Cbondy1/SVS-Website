@@ -5,9 +5,54 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* Nav */
+
+.nav {
+  background: linear-gradient(rgb(240, 130, 100), rgb(240, 90, 60));
+}
+
+#nav-logo {
+  width: 50px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+/* Footer */
+
+i {
+  font-size: 24px
+}
+
+#footer {
+  /* position: fixed;
+  bottom: 0px;
+  z-index:10; */
+  background: linear-gradient(white, lightgrey);
+  width: 100%;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 12px;
+  border-top: 1px solid lightgrey;
+}
+
+a {
+  font-size: 24px;
+  margin: 0px;
+  text-align: left;
+  color:black;
+}
+
+.links {
+  color: black;
+  padding: 20px 20px 0px 20px;
 }
