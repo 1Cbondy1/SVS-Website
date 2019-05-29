@@ -40,7 +40,7 @@ function MainContent() {
 
         <div className="group-margin">
           <p><strong>PRICING CHART</strong></p>
-          <img id="chart" src="./images/evolve-A-plan-sq.jpg" alt="chart" />
+          <img id="chart" src="./images/price-chart.jpg" alt="chart" />
         </div>
 
       </Container>
