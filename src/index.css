@@ -26,6 +26,34 @@ code {
   left: 0px;
 }
 
+/* Main Content */
+
+#main-image {
+  width: 90%;
+}
+
+.group-margin {
+  margin: 50px 0px;
+}
+
+hr {
+  width: 50%
+}
+
+.viz-images {
+  width: 350px;
+}
+
+.portfolio-images {
+  width: 200px;
+  margin: 10px;
+  border: solid 1px lightgrey;
+}
+
+#chart {
+  width: 100%;
+}
+
 /* Footer */
 
 i {
@@ -33,14 +61,10 @@ i {
 }
 
 #footer {
-  /* position: fixed;
-  bottom: 0px;
-  z-index:10; */
   background: linear-gradient(white, lightgrey);
   width: 100%;
   color: black;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 10px 0px;
   font-size: 12px;
   border-top: 1px solid lightgrey;
 }
