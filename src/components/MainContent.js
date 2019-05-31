@@ -1,6 +1,8 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 
+import PortfolioCard from './PortfolioCard';
+
 function MainContent() {
   return (
     <div>
@@ -28,12 +30,12 @@ function MainContent() {
 
         <div className="group-margin">
           <p><strong>PORTFOLIO</strong></p>
-          <img className="portfolio-images" src="./images/evolve-A-plan-sq.jpg" alt="portfolio" />
-          <img className="portfolio-images" src="./images/evolve-A-00-sq.jpg" alt="portfolio" />
-          <img className="portfolio-images" src="./images/evolve-A-01-sq.jpg" alt="portfolio" />
-          <img className="portfolio-images" src="./images/evolve-B-plan-sq.jpg" alt="portfolio" />
-          <img className="portfolio-images" src="./images/evolve-B-00-sq.jpg" alt="portfolio" />
-          <img className="portfolio-images" src="./images/evolve-B-01-sq.jpg" alt="portfolio" />
+          <PortfolioCard image="./images/evolve-A-plan-sq.jpg" />
+          <PortfolioCard image="./images/evolve-A-00-sq.jpg" />
+          <PortfolioCard image="./images/evolve-A-01-sq.jpg" />
+          <PortfolioCard image="./images/evolve-B-plan-sq.jpg" />
+          <PortfolioCard image="./images/evolve-B-00-sq.jpg" />
+          <PortfolioCard image="./images/evolve-B-01-sq.jpg" />
         </div>
 
         <hr />
