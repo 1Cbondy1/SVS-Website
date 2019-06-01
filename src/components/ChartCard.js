@@ -21,7 +21,7 @@ class MyVerticallyCenteredModal extends React.Component {
     }
 }
 
-class PortfolioCard extends React.Component {
+class ChartCard extends React.Component {
     constructor(...args) {
         super(...args);
         this.state = { modalShow: false };
@@ -33,7 +33,7 @@ class PortfolioCard extends React.Component {
         return (
             <span>
                 <span>
-                    <img onClick={() => this.setState({ modalShow: true })} className="portfolio-images" src={this.props.image} alt="portfolio" />
+                    <img onClick={() => this.setState({ modalShow: true })} id="chart" src={this.props.image} alt="portfolio" />
                 </span>
 
                 <MyVerticallyCenteredModal
@@ -46,4 +46,4 @@ class PortfolioCard extends React.Component {
     }
 }
 
-export default PortfolioCard;
+export default ChartCard;

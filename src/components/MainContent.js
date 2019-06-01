@@ -1,8 +1,8 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-// import { Link, animateScroll as scroll } from "react-scroll";
 
 import PortfolioCard from './PortfolioCard';
+import ChartCard from './ChartCard';
 
 class MainContent extends React.Component {
   render() {
@@ -44,7 +44,7 @@ class MainContent extends React.Component {
   
           <div className="group-margin section4">
             <p><strong>PRICING CHART</strong></p>
-            <img id="chart" src="./images/price-chart.jpg" alt="chart" />
+            <ChartCard id="chart" image="./images/price-chart.jpg" />
           </div>
   
         </Container>

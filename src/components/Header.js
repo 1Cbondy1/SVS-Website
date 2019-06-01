@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 
-import { Link } from "react-scroll";
+import NavItem from './NavItem'
 
 function Header() {
   return (
@@ -13,45 +13,11 @@ function Header() {
         <Nav.Link eventKey="link-0"><img id="nav-logo" src="images/SVS_text-logo.jpg" alt="slice-logo" /></Nav.Link>
       </Nav.Item> */}
 
-      <Nav.Item>
-        <Nav.Link eventKey="link-1">
-          <Link activeClass="active" to="section1" spy={true} smooth={true} offset={-70} duration={500}>
-            About
-          </Link>
-        </Nav.Link>
-      </Nav.Item>
-
-      <Nav.Item>
-        <Nav.Link eventKey="link-2">
-          <Link activeClass="active" to="section2" spy={true} smooth={true} offset={-70} duration={500}>
-            Services
-          </Link>
-        </Nav.Link>
-      </Nav.Item>
-
-      <Nav.Item>
-        <Nav.Link eventKey="link-3">
-          <Link activeClass="active" to="section3" spy={true} smooth={true} offset={-70} duration={500}>
-            Portfolio
-          </Link>
-        </Nav.Link>
-      </Nav.Item>
-
-      <Nav.Item>
-        <Nav.Link eventKey="link-4">
-          <Link activeClass="active" to="section4" spy={true} smooth={true} offset={-70} duration={500}>
-            Pricing
-          </Link>
-        </Nav.Link>
-      </Nav.Item>
-
-      <Nav.Item>
-        <Nav.Link eventKey="link-5">
-          <Link activeClass="active" to="section5" spy={true} smooth={true} offset={-70} duration={500}>
-            Contact
-          </Link>
-        </Nav.Link>
-      </Nav.Item>
+      <NavItem eventKey="link-1" to="section1" title="About" />
+      <NavItem eventKey="link-2" to="section2" title="Services" />
+      <NavItem eventKey="link-3" to="section3" title="Portfolio" />
+      <NavItem eventKey="link-4" to="section4" title="Pricing" />
+      <NavItem eventKey="link-5" to="section5" title="Contact" />
 
       </Nav>
 
