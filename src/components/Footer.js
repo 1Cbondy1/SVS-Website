@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer id="footer">
+    <footer className="section5" id="footer">
         <span>
             <a className="links" href="mailto:cbondy@slicevisualstudio.com"><i className="fa fa-envelope"></i></a>
         </span>

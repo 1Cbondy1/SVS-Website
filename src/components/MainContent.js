@@ -1,5 +1,6 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
+// import { Link, animateScroll as scroll } from "react-scroll";
 
 import PortfolioCard from './PortfolioCard';
 
@@ -13,14 +14,14 @@ class MainContent extends React.Component {
   
           <hr />
   
-          <div className="group-margin">
+          <div className="group-margin section1">
             <p><strong>WHAT IS SLICE VISUAL STUDIO?</strong></p>
             <p>Slice is a dynamic team of professionals experienced in architectural visualization, 3D modeling, and rendering.</p>
           </div>
   
           <hr />
   
-          <div className="group-margin">
+          <div className="group-margin section2">
             <p><strong>2D AND 3D VISUALIZATION SERVICES</strong></p>
             <img className="viz-images" src="./images/evolve-A-plan-sq.jpg" alt="viz" />
             <img className="viz-images" src="./images/evolve-A-00-sq.jpg" alt="viz" />
@@ -29,7 +30,7 @@ class MainContent extends React.Component {
   
           <hr />
   
-          <div className="group-margin">
+          <div className="group-margin section3">
             <p><strong>PORTFOLIO</strong></p>
             <PortfolioCard image="./images/evolve-A-plan-sq.jpg" />
             <PortfolioCard image="./images/evolve-A-00-sq.jpg" />
@@ -41,7 +42,7 @@ class MainContent extends React.Component {
   
           <hr />
   
-          <div className="group-margin">
+          <div className="group-margin section4">
             <p><strong>PRICING CHART</strong></p>
             <img id="chart" src="./images/price-chart.jpg" alt="chart" />
           </div>

@@ -33,7 +33,7 @@ code {
 }
 
 .group-margin {
-  margin: 50px 0px;
+  margin: 70px 0px;
 }
 
 hr {
@@ -82,18 +82,25 @@ i {
 }
 
 a {
+  line-height: 2;
   font-size: 16px;
-  margin: 5px;
+  padding: 5px;
   text-align: left;
   color:white;
 }
 
 a:hover {
   color: white;
+  background-color: rgb(240, 130, 100);
 }
 
 .links {
   font-size: 24px;
   color: black;
   padding: 20px 20px 0px 20px;
+}
+
+.links:hover {
+  color: black;
+  background: none;
 }
