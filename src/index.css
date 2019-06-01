@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
         "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
         sans-serif;
@@ -12,16 +12,20 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+.extra {
+    margin: 0px 20px;
+}
+
 /* Nav */
 
 .nav {
     z-index: 90;
     background: linear-gradient(rgb(240, 130, 100), rgb(240, 90, 60));
     width: 100%;
-    height: 48px;
-    position: fixed;
+    /* height: 60px; */
+    /* position: fixed;
     top: 0;
-    right: 0;
+    right: 0; */
 }
 
 #nav-logo {
@@ -29,40 +33,39 @@ code {
     position: fixed;
     top: 0px;
     left: 0px;
-    background-color: white;
-    width: 150px;
+    width: 70px;
     height: 48px;
-    padding: 12px;
+    padding: 10px;
 }
 
-/* .navbar-light .navbar-nav .nav-link {
-    padding-top: 0px;
-    padding-bottom: 0px;
+.menu-options {
     color: white;
 }
-.navbar-light .navbar-nav .nav-link:hover {
+
+.navbar-dark .navbar-nav .nav-link {
     color: white;
 }
-.navbar-light .navbar-brand {
+.navbar-dark .navbar-nav .nav-link:hover {
     color: white;
 }
-.navbar-light .navbar-brand:hover {
+.navbar-dark .navbar-brand {
     color: white;
 }
-.navbar {
-    padding:0px;
+.navbar-dark .navbar-brand:hover {
+    color: white;
 }
-.nav-item {
-    line-height: 2;
-}
-.nav .navbar .navbar-expand-lg .navbar-light {
+.nav .navbar .navbar-expand-lg .navbar-dark {
     padding: 0px;
-} */
+}
+.mr-auto, .mx-auto {
+    margin-left: auto!important;
+    margin-right: 0px!important;
+}
 
 /* Main Content */
 
 #main-image {
-    padding-top: 65px;
+    padding-top: 20px;
     width: 90%;
 }
 
@@ -76,6 +79,8 @@ hr {
 
 .viz-images {
     width: 40%;
+    max-width: 350px;
+    padding: 10px 25px 25px 10px;
 }
 
 .portfolio-images {
@@ -87,7 +92,6 @@ hr {
 
 .portfolio-images:hover {
     border: solid 1px grey;
-    /* box-shadow: 0px 0px 10px lightgrey; */
     cursor: pointer;
     transition: 0.3s;
     transform: scale(1.05);
@@ -148,12 +152,14 @@ a:hover {
 /* Media Queries */
 
 @media only screen and (max-width: 650px) {
-    .menu-options {
-        display: none;
-    }
-    #nav-logo {
+    /* #nav-logo {
         left: 0;
         right: 0;
         margin: 0 auto;
+    } */
+    .viz-images {
+        display: block;
+        margin: auto;
+        min-width: 225px;
     }
 }
