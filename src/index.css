@@ -65,7 +65,11 @@ code {
 }
 
 .group-margin {
-    margin: 70px 0px;   
+    margin: 70px 0px;
+}
+
+.text-box {
+    margin: 0px 10% 0px 10%;
 }
 
 hr {
