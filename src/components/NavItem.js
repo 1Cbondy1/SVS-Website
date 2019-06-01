@@ -8,7 +8,7 @@ function NavItem(props) {
         <div>
             <Nav.Item>
                 <Nav.Link eventKey={props.eventKey}>
-                    <Link activeClass="active" to={props.to} spy={true} smooth={true} offset={-70} duration={500}>
+                    <Link className="menu-options" activeClass="active" to={props.to} spy={true} smooth={true} offset={-70} duration={500}>
                         {props.title}
                     </Link>
                 </Nav.Link>
