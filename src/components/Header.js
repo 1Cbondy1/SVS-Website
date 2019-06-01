@@ -8,6 +8,8 @@ function Header() {
     return (
         <div>
 
+            <p id="nav-logo">Slice</p>
+
             <Nav className="justify-content-end">
                 <NavItem eventKey="link-1" to="section1" title="About" />
                 <NavItem eventKey="link-2" to="section2" title="Services" />
