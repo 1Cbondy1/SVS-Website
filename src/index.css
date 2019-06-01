@@ -82,13 +82,18 @@ i {
 }
 
 a {
-  font-size: 24px;
-  margin: 0px;
+  font-size: 16px;
+  margin: 5px;
   text-align: left;
-  color:black;
+  color:white;
+}
+
+a:hover {
+  color: white;
 }
 
 .links {
+  font-size: 24px;
   color: black;
   padding: 20px 20px 0px 20px;
 }

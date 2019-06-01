@@ -7,9 +7,9 @@ function Header() {
 
       <Nav className="justify-content-end">
 
-      <Nav.Item>
+      {/* <Nav.Item>
         <Nav.Link eventKey="link-0"><img id="nav-logo" src="images/SVS_text-logo.jpg" alt="slice-logo" /></Nav.Link>
-      </Nav.Item>
+      </Nav.Item> */}
 
       <Nav.Item>
         <Nav.Link eventKey="link-1">About</Nav.Link>
