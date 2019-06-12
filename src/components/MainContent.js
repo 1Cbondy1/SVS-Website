@@ -9,7 +9,7 @@ class MainContent extends React.Component {
     return (
       <div className="extra">
 
-        <img id="main-image" src="./images/main-image.jpg" alt="main" />
+        <img id="main-image" src="./images/main-image.png" alt="main" />
   
         <Container >
   
@@ -24,8 +24,8 @@ class MainContent extends React.Component {
   
           <div className="group-margin section2">
             <p><strong>2D AND 3D VISUALIZATION SERVICES</strong></p>
-            <img className="viz-images" src="./images/services-01.jpg" alt="viz" />
-            <img className="viz-images" src="./images/services-00.jpg" alt="viz" />
+            <img className="viz-images" src="./images/services-01.png" alt="viz" />
+            <img className="viz-images" src="./images/services-00.png" alt="viz" />
             <p className="text-box"> We specialize in creating high quality 2D and 3D marketing floor plans for real estate agents, property managers, and developers.</p>
           </div>
   
