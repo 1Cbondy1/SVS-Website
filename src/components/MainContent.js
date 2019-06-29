@@ -33,12 +33,12 @@ class MainContent extends React.Component {
   
           <div className="group-margin section3">
             <p><strong>PORTFOLIO</strong></p>
-            <PortfolioCard image="./images/evolve-A-plan-sq.jpg" />
-            <PortfolioCard image="./images/evolve-A-00-sq.jpg" />
             <PortfolioCard image="./images/evolve-A-01-sq.jpg" />
-            <PortfolioCard image="./images/evolve-B-plan-sq.jpg" />
-            <PortfolioCard image="./images/evolve-B-00-sq.jpg" />
+            <PortfolioCard image="./images/evolve-A-00-sq.jpg" />
+            <PortfolioCard image="./images/evolve-A-plan-sq.jpg" />
             <PortfolioCard image="./images/evolve-B-01-sq.jpg" />
+            <PortfolioCard image="./images/evolve-B-00-sq.jpg" />
+            <PortfolioCard image="./images/evolve-B-plan-sq.jpg" />
           </div>
   
           <hr />

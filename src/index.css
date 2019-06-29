@@ -62,14 +62,17 @@ code {
 #main-image {
     padding-top: 20px;
     width: 90%;
+    max-width: 1080px;
 }
 
 .group-margin {
-    margin: 70px 0px;
+    margin: 70px auto;
+    max-width: 900px
 }
 
 .text-box {
-    margin: 0px 10% 0px 10%;
+    margin: auto;
+    max-width: 600px;
 }
 
 hr {
