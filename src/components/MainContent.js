@@ -39,6 +39,7 @@ class MainContent extends React.Component {
             <PortfolioCard image="./images/evolve-B-01-sq.jpg" />
             <PortfolioCard image="./images/evolve-B-00-sq.jpg" />
             <PortfolioCard image="./images/evolve-B-plan-sq.jpg" />
+            <PortfolioCard image="./images/NCL-Laser-Tag-03.jpg" />
           </div>
   
           <hr />
