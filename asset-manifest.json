@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SVS-Website/static/css/main.a1e57972.chunk.css",
-    "main.js": "/SVS-Website/static/js/main.bd6cc58e.chunk.js",
-    "main.js.map": "/SVS-Website/static/js/main.bd6cc58e.chunk.js.map",
+    "main.js": "/SVS-Website/static/js/main.bc998f02.chunk.js",
+    "main.js.map": "/SVS-Website/static/js/main.bc998f02.chunk.js.map",
     "runtime~main.js": "/SVS-Website/static/js/runtime~main.4eeb4779.js",
     "runtime~main.js.map": "/SVS-Website/static/js/runtime~main.4eeb4779.js.map",
     "static/js/2.98f6c302.chunk.js": "/SVS-Website/static/js/2.98f6c302.chunk.js",
     "static/js/2.98f6c302.chunk.js.map": "/SVS-Website/static/js/2.98f6c302.chunk.js.map",
     "index.html": "/SVS-Website/index.html",
-    "precache-manifest.513676cd35cb3ec91d275dc68c71d55d.js": "/SVS-Website/precache-manifest.513676cd35cb3ec91d275dc68c71d55d.js",
+    "precache-manifest.9e55a4e63518f4eab2dd823c32be1c7b.js": "/SVS-Website/precache-manifest.9e55a4e63518f4eab2dd823c32be1c7b.js",
     "service-worker.js": "/SVS-Website/service-worker.js",
     "static/css/main.a1e57972.chunk.css.map": "/SVS-Website/static/css/main.a1e57972.chunk.css.map"
   }
