@@ -33,5 +33,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://1cbondy1.github.io/SVS-Website"
+  "homepage": "https://1cbondy1.github.io/SVS-Website",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }

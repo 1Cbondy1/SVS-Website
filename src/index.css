@@ -87,7 +87,9 @@ hr {
 
 .portfolio-images {
     position: relative;
+    object-fit: contain;
     width: 200px;
+    height: 200px;
     margin: 10px;
     border: solid 1px lightgrey;
 }
