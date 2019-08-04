@@ -75,6 +75,10 @@ code {
     max-width: 600px;
 }
 
+strong {
+    font-size: 18px;
+}
+
 hr {
     width: 50%
 }
@@ -106,7 +110,13 @@ hr {
 }
 
 .modal-image {
-    width: 100%;
+    max-width: 100%;
+    max-height: 85vh;
+    margin: auto;
+}
+
+.modal-content {
+    width: unset;
     margin: auto;
 }
 

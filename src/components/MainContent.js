@@ -33,14 +33,14 @@ class MainContent extends React.Component {
   
           <div className="group-margin section3">
             <p><strong>PORTFOLIO</strong></p>
-            <PortfolioCard image="./images/seven-apts-bremond-01-sq.jpg" />
-            <PortfolioCard image="./images/seven-apts-bremond-00-sq.jpg" />
-            <PortfolioCard image="./images/evolve-A-01-sq.jpg" />
-            <PortfolioCard image="./images/evolve-A-00-sq.jpg" />
-            <PortfolioCard image="./images/evolve-A-plan-sq.jpg" />
-            <PortfolioCard image="./images/evolve-B-01-sq.jpg" />
-            <PortfolioCard image="./images/evolve-B-00-sq.jpg" />
-            <PortfolioCard image="./images/evolve-B-plan-sq.jpg" />
+            <PortfolioCard image="./images/web_seven-apts-bremond-01.jpg" />
+            <PortfolioCard image="./images/web_seven-apts-bremond-00.jpg" />
+            <PortfolioCard image="./images/web_evolve-A-01.jpg" />
+            <PortfolioCard image="./images/web_evolve-A-00.jpg" />
+            <PortfolioCard image="./images/web_evolve-A-plan.jpg" />
+            <PortfolioCard image="./images/web_evolve-B-01.jpg" />
+            <PortfolioCard image="./images/web_evolve-B-00.jpg" />
+            <PortfolioCard image="./images/web_evolve-B-plan.jpg" />
             <PortfolioCard image="./images/NCL-Laser-Tag-03.jpg" />
             <PortfolioCard image="./images/NCL-Laser-Tag-02.jpg" />
           </div>
@@ -49,7 +49,7 @@ class MainContent extends React.Component {
   
           <div className="group-margin section4">
             <p><strong>PRICING CHART</strong></p>
-            <ChartCard id="chart" image="./images/price-chart.jpg" />
+            <img id="chart" src="./images/price-chart.jpg" alt="pricing-chart" />
           </div>
   
         </Container>

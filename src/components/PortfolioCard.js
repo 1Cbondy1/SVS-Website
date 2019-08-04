@@ -10,12 +10,12 @@ class MyVerticallyCenteredModal extends React.Component {
                 size="lg"
                 aria-labelledby="contained-modal-title-vcenter"
                 centered
-            >
-                <Modal.Body>
-                    <span>
-                    <img className="modal-image" src={this.props.image} alt="portfolio" />
-                    </span>
-                </Modal.Body>
+                >
+                    <Modal.Body>
+                        <span>
+                        <img className="modal-image" src={this.props.image} alt="portfolio" />
+                        </span>
+                    </Modal.Body>
             </Modal>
         );
     }
