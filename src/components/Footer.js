@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="section5" id="footer">
         <span>
-            <a className="links" href="mailto:clayton.bondy@slicevisualstudio.com"><i className="fa fa-envelope"></i></a>
+            <a className="links" href="mailto:cbondy@slicevisualstudio.com"><i className="fa fa-envelope"></i></a>
         </span>
         <span>
             <a className="links" href="tel:225-718-5327"><i className="fa fa-phone"></i></a>
