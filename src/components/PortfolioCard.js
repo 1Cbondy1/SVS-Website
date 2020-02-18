@@ -1,9 +1,9 @@
 import React from 'react';
 import Modal from 'react-bootstrap/Modal';
 
-
 class MyVerticallyCenteredModal extends React.Component {
     render(props) {
+
         return (
             <Modal
                 {...this.props}
@@ -16,6 +16,11 @@ class MyVerticallyCenteredModal extends React.Component {
                         <img className="modal-image" src={this.props.image} alt="portfolio" />
                         </span>
                     </Modal.Body>
+                    {
+                        this.props.credit
+                            ? <p class="text-credit">Agency: {this.props.credit}</p>
+                            : null
+                    }
             </Modal>
         );
     }
@@ -40,6 +45,7 @@ class PortfolioCard extends React.Component {
                     show={this.state.modalShow}
                     onHide={modalClose}
                     image={this.props.image}
+                    credit={this.props.credit}
                 />
             </span>
         );

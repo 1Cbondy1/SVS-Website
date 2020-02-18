@@ -75,6 +75,12 @@ code {
     max-width: 600px;
 }
 
+.text-credit {
+    text-align: left;
+    font-size: 10px;
+    padding: 0 1rem;
+}
+
 strong {
     font-size: 18px;
 }
