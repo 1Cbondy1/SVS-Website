@@ -51,7 +51,7 @@ class MainContent extends React.Component {
           <hr />
   
           <div className="group-margin section4">
-            <p><strong>PRICING CHART</strong></p>
+            <p><strong>FLOOR PLAN PRICING</strong></p>
             <img id="chart" src="./images/price-chart.jpg" alt="pricing-chart" />
           </div>
   
