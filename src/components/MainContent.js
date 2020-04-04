@@ -34,11 +34,13 @@ class MainContent extends React.Component {
             <PortfolioCard image="./images/web_evolve-A-01.jpg" />
             <PortfolioCard image="./images/web_evolve-A-00.jpg" />
             <PortfolioCard image="./images/web_evolve-A-plan.jpg" />
-            <PortfolioCard image="./images/NCL-Laser-Tag-03.jpg" credit={CLIENTS.YD}/>
-            <PortfolioCard image="./images/NCL-Laser-Tag-02.jpg" credit={CLIENTS.YD}/>
+            <PortfolioCard image="./images/Walmart-02.jpg" credit={CLIENTS.YD}/>
+            <PortfolioCard image="./images/Walmart-01.jpg" credit={CLIENTS.YD}/>
             <PortfolioCard image="./images/web_evolve-B-01.jpg" />
             <PortfolioCard image="./images/web_evolve-B-00.jpg" />
             <PortfolioCard image="./images/web_evolve-B-plan.jpg" />
+            <PortfolioCard image="./images/NCL-Laser-Tag-03.jpg" credit={CLIENTS.YD}/>
+            <PortfolioCard image="./images/NCL-Laser-Tag-02.jpg" credit={CLIENTS.YD}/>
         </div>
 
         <hr />
