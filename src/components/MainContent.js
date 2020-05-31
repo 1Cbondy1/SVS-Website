@@ -36,12 +36,15 @@ class MainContent extends React.Component {
 
                 <div className="group-margin section2">
                     <p><strong>PORTFOLIO</strong></p>
-                    <PortfolioCard image="./images/web_142-manhattan-2A-01.jpg" />
-                    <PortfolioCard image="./images/web_142-manhattan-2A-00.jpg" />
-                    <PortfolioCard image="./images/web_seven-apts-bremond-01.jpg" />
-                    <PortfolioCard image="./images/web_seven-apts-bremond-00.jpg" />
+                    <PortfolioCard image="./images/web_LA-1209-east-main-01.jpg" />
+                    <PortfolioCard image="./images/web_LA-1209-east-main-00.jpg" />
+                    <PortfolioCard image="./images/web_NY-142-manhattan-lobby-03.jpg" />
+                    <PortfolioCard image="./images/web_NY-142-manhattan-2A-01.jpg" />
+                    <PortfolioCard image="./images/web_NY-142-manhattan-2A-00.jpg" />
                     <PortfolioCard image="./images/BMB-01.jpg" credit={CLIENTS.CSD}/>
                     <PortfolioCard image="./images/BMB-02.jpg" credit={CLIENTS.CSD}/>
+                    <PortfolioCard image="./images/web_seven-apts-bremond-01.jpg" />
+                    <PortfolioCard image="./images/web_seven-apts-bremond-00.jpg" />
                     <PortfolioCard image="./images/web_evolve-A-01.jpg" />
                     <PortfolioCard image="./images/web_evolve-A-00.jpg" />
                     <PortfolioCard image="./images/web_evolve-A-plan.jpg" />
